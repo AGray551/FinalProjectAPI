@@ -11,6 +11,8 @@ namespace FinalProjectAPI.Data
         }
 
         public DbSet<SuperHero> SuperHeroes {  get; set; }
+        public DbSet<Student> Students { get; set; }   
+        public DbSet<Cat> Cats { get; set; }
 
     }
 }
