@@ -19,7 +19,7 @@ namespace FinalProjectAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Movies>>> GetAlls()
+        public async Task<ActionResult<List<Movie>>> GetAlls()
         {
             var movies = await _context.Movies.ToListAsync();
 
